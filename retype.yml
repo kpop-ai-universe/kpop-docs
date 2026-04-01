@@ -1,4 +1,4 @@
-favicon : logo.png
+favicon: static/favicon.png
 
 branding:
   title: KPOP AI UNIVERSE
