@@ -1,6 +1,8 @@
 ---
-label: How to train an AI Model with Applio Colab
-author: teosarrr
+label: How To Train a Clean Model
+author: 
+ name: teosarr
+ avatar: teosaravatar.webp
 ---
 
 # How to train an AI Model with Applio Colab

@@ -1,6 +1,6 @@
 {
   "version": "4.4.0",
-  "created": "2026-04-01T17:54:44Z",
+  "created": "2026-04-01T17:58:14Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -87,6 +87,9 @@
     },
     {
       "path": "training/rvc-disconnected/index.html"
+    },
+    {
+      "path": "training/teosaravatar.webp"
     },
     {
       "path": "whats-rvc/index.html"
