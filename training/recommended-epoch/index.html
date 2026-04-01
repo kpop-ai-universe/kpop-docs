@@ -11,35 +11,35 @@
     <meta name="generator" content="Retype 4.4.0">
 
     <!-- Primary Meta Tags -->
-    <title>What is RVC?</title>
-    <meta name="title" content="What is RVC?">
-    <meta name="description" content="To ensure you have the most accurate and up-to-date information, we recommend reading the official documentation from AI Hub.">
+    <title>Recommended epoch values per dataset duration</title>
+    <meta name="title" content="Recommended epoch values per dataset duration">
+    <meta name="description" content="As requested to me personally, I am going to make a post talking about which epoch values are recommended for a certain dataset duration.">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://kpop-ai-universe.github.io/kpop-docs/whats-rvc/">
+    <link rel="canonical" href="https://kpop-ai-universe.github.io/kpop-docs/training/recommended-epoch/">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://kpop-ai-universe.github.io/kpop-docs/whats-rvc/">
-    <meta property="og:title" content="What is RVC?">
-    <meta property="og:description" content="To ensure you have the most accurate and up-to-date information, we recommend reading the official documentation from AI Hub.">
+    <meta property="og:url" content="https://kpop-ai-universe.github.io/kpop-docs/training/recommended-epoch/">
+    <meta property="og:title" content="Recommended epoch values per dataset duration">
+    <meta property="og:description" content="As requested to me personally, I am going to make a post talking about which epoch values are recommended for a certain dataset duration.">
     <meta property="og:site_name" content="KPOP AI UNIVERSE">
     <meta property="og:locale" content="en_US">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://kpop-ai-universe.github.io/kpop-docs/whats-rvc/">
-    <meta name="twitter:title" content="What is RVC?">
-    <meta name="twitter:description" content="To ensure you have the most accurate and up-to-date information, we recommend reading the official documentation from AI Hub.">
+    <meta name="twitter:url" content="https://kpop-ai-universe.github.io/kpop-docs/training/recommended-epoch/">
+    <meta name="twitter:title" content="Recommended epoch values per dataset duration">
+    <meta name="twitter:description" content="As requested to me personally, I am going to make a post talking about which epoch values are recommended for a certain dataset duration.">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link id="retype-favicon" rel="icon" href="../static/favicon.png" />
-    <link href="../resources/css/retype.css?v=4.4.0.828385148736" rel="stylesheet">
+    <link id="retype-favicon" rel="icon" href="../../static/favicon.png" />
+    <link href="../../resources/css/retype.css?v=4.4.0.828385148736" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=4.4.0.828385148736" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.4.0.828385148736" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.4.0.828385148736" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.4.0.828385148736" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -56,8 +56,8 @@
                 <div class="flex items-center px-2 md:px-6">
                     <a id="retype-branding-logo" href="https://kpop-ai-universe.github.io/kpop-docs/" class="flex items-center leading-snug text-xl">
                         <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
-                            <img class="max-h-10 dark:hidden md:inline-block" src="../logo.png" alt="" width="40" height="40">
-                            <img class="max-h-10 hidden dark:inline-block" src="../logo.png" alt="" width="40" height="40">
+                            <img class="max-h-10 dark:hidden md:inline-block" src="../../logo.png" alt="" width="40" height="40">
+                            <img class="max-h-10 hidden dark:inline-block" src="../../logo.png" alt="" width="40" height="40">
                         </span>
                         <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">KPOP AI UNIVERSE</span>
                     </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Docs</span>
@@ -147,37 +147,42 @@
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
                 <!-- Page content  -->
-<h1 id="what-is-rvc">What is RVC?</h1>
-<p>To ensure you have the most accurate and up-to-date information, we recommend reading the official documentation from <strong>AI Hub</strong>.</p>
-<p>RVC (Retrieval-based Voice Conversion) is a complex technology, and the AI Hub team maintains the gold standard for explaining its essentials.</p>
-<hr>
-<p><button class="no-link inline-flex align-middle items-center justify-center font-medium leading-none cursor-pointer transition-colors duration-200 ease-out focus:outline-hidden bg-button-primary hover:bg-button-primary-hover text-button-primary-text px-4 h-10 text-sm rounded-md">
-    <span>Read Official RVC Guide on AI Hub</span>
-</button></p>
-<hr>
-<h3 id="why-follow-this-link">Why follow this link?</h3>
-<ul>
-<li><strong>Official Explanations</strong>: Deep dive into VITS and voice cloning.</li>
-<li><strong>Up-to-date</strong>: Information is updated as the technology evolves.</li>
-<li><strong>Safety</strong>: Verified links to official repositories and resources.</li>
-</ul>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
-    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-info" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-<p>The link above will take you to the official AI Hub documentation.</p>
+<h1 id="recommended-epoch-values-per-dataset-duration">Recommended epoch values per dataset duration</h1>
+<div class="-mt-3 mb-12 flex flex-wrap text-sm text-gray-400 dark:text-dark-350 items-center">
+    <div class="flex items-center">
+        <div>By</div>
+        <div class="ml-2 flex items-center">
+          <div class="shrink-0 w-8 h-8 overflow-hidden rounded-full">
+            <img class="object-cover" src="../alby.webp">
+          </div>
+          <div class="ml-1 whitespace-nowrap text-gray-500 dark:text-dark-350">Alby</div>
         </div>
     </div>
 </div>
+
+<p>As requested to me personally,
+I am going to make a post talking about which epoch values are recommended for a certain dataset duration.</p>
+<p>This is for &quot;original&quot; (and similar pretrains) only!!! For OV2 you can look up ‘pre-train’ in this same forum and you should find the epoch values for that.</p>
+<p>Please note that these are just what I found to be the best while testing. If you have constructive criticism, feel free to share it with me.</p>
+<hr>
+<h2 id="a-few-seconds-1-minute">A few seconds-1 minute</h2>
+<p>150-200 epochs MAX</p>
+<h2 id="2-minutes">2 minutes</h2>
+<p>200-300 epochs MAX</p>
+<h2 id="3-to-5-minutes">3 to 5 minutes</h2>
+<p>300-370 epochs MAX</p>
+<h2 id="6-to-9-minutes">6 to 9 minutes</h2>
+<p>320-400 epochs MAX</p>
+<h2 id="10-to-13-minutes">10 to 13 minutes</h2>
+<p>400-500 epochs MAX</p>
+<h2 id="14-18-minutes">14-18 minutes</h2>
+<p>500-800 epochs MAX</p>
+<h2 id="19-25-minutes">19-25 minutes</h2>
+<p>600-1000 epochs MAX</p>
+<h2 id="30-minutes-and-above">30 minutes and above</h2>
+<p>800-1000 epochs MAX</p>
+<hr>
+<p>One thing you can also do is set a huge epoch number (like 1000) then stop training when you see it&#x27;s overtraining, although, not everyone has the chart so this can&#x27;t be convenient for everyone.</p>
 
                 
                 <!-- Required only on API pages -->
@@ -187,20 +192,20 @@
             
                 <nav id="retype-nextprev" class="print:hidden flex mt-14">
                     <div class="w-1/2">
-                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../">
+                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../training/applio-training/">
                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                             <span>
                                 <span class="block text-xs font-normal text-base-text-muted">Previous</span>
-                                <span class="block mt-1">Welcome</span>
+                                <span class="block mt-1">How to train an AI Model with Applio Colab</span>
                             </span>
                         </a>
                     </div>
             
                     <div class="w-1/2">
-                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../ai-cover/dahyun-bot/">
+                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../training/rvc-disconnected/">
                             <span>
                                 <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
-                                <span class="block mt-1">Dahyun Bot & UVR</span>
+                                <span class="block mt-1">RVC Disconnected Guide</span>
                             </span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                         </a>
@@ -244,6 +249,6 @@
 
     <div id="retype-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "What's RVC?", level: 1, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Recommended epoch values per dataset duration", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
