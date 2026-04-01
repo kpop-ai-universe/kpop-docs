@@ -1,6 +1,6 @@
 {
   "version": "4.4.0",
-  "created": "2026-04-01T10:41:35Z",
+  "created": "2026-04-01T11:25:36Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -23,6 +23,9 @@
     },
     {
       "path": "index.html"
+    },
+    {
+      "path": "logo.png"
     },
     {
       "path": "resources/css/retype.css"

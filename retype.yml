@@ -1,7 +1,7 @@
-
-
 branding:
   title: KPOP AI UNIVERSE
+  logo: static/logo.png
+  logoDark: static/logo.png
   label: Docs
 
 url: https://kpop-ai-universe.github.io/kpop-docs/
