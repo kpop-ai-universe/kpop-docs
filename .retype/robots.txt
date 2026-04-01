@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kpop-ai-universe.com/sitemap.xml.gz

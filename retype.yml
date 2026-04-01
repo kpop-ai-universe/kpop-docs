@@ -1,0 +1,18 @@
+brand: KPOP AI UNIVERSE
+url: kpop-ai-universe.com # Ajoute cette ligne (même fictive)
+brandColor: "#FFB6C1"
+branding:
+  accent: "#87CEEB"
+  dark:
+    accent: "#87CEEB"
+footer:
+  copyright: "&copy; 2026 KPOP AI UNIVERSE. Created by the community."
+sidebar:
+  links:
+    - text: Discord Server
+      link: https://discord.gg/ZsH4xG5n6R
+# Structure settings
+input: .
+output: .retype
+tree:
+  max_depth: 2
